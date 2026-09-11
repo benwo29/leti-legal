@@ -29,13 +29,13 @@ footer { margin-top:48px; font-size:13px; color:var(--muted); }
 <a href="terms.html">Terms of Use →</a></div></header>
 <div class="wrap">
 <h1>Leti — Privacy Policy</h1>
-<p><em>Last updated: August 21, 2026</em></p>
+<p><em>Last updated: September 11, 2026</em></p>
 <p>Leti ("we," "us") is a casual social app for sharing your sports and activity life with friends. This policy explains what we collect, how we use it, and your choices. Questions: <strong>benwodonnell@gmail.com</strong>.</p>
 <h2>Information we collect</h2>
 <ul>
 <li><strong>Account:</strong> your email address and password. Sign-in is handled by our authentication provider (Supabase); we do not store your password in plain text.</li>
 <li><strong>Profile:</strong> username, display name, bio, profile photo, the sports you add, and — only if you choose to add one — a "Lately at" spot (the place you've been practicing recently). It is strictly optional, you can remove it anytime in the app, it clears automatically about three weeks after you stop logging at that place, and on a private account the app doesn't show it to anyone who doesn't follow you.</li>
-<li><strong>Content you create:</strong> posts (text, photos, and videos), sport tags, comments, reactions ("shouts"), practices/activities and competitions you add to your schedule, teams you create or join and what you share there, tags of friends you post with, and direct messages you send.</li>
+<li><strong>Content you create:</strong> posts (text, photos, videos, and short audio clips), sport tags, comments, reactions ("shouts"), practices/activities and competitions you add to your schedule, teams you create or join and what you share there, tags of friends you post with, and direct messages you send.</li>
 <li><strong>Social connections:</strong> the accounts you follow, who follows you, and (on private accounts) follow requests.</li>
 <li><strong>Safety data:</strong> reports you file, the accounts you block or mute, and any feedback notes you send us in the app — kept so we can run the service and keep it safe.</li>
 <li><strong>Basic technical data:</strong> standard app/device and log information needed to run the service and keep it secure.</li>
@@ -43,6 +43,14 @@ footer { margin-top:48px; font-size:13px; color:var(--muted); }
 <li><strong>How you use Leti:</strong> which screens you visit and which buttons you tap (for example, opening the composer or shouting a post), so we can see what's working and improve the app. This is about actions, not content — we record *that* you sent a comment, never a copy of what it said. This data stays on Leti's own servers, is never sold, and is never shared for advertising; detailed records are deleted after 90 days. We also record which posts you've already been shown, so your feed can avoid re-serving you the same things.</li>
 </ul>
 <p>We do <strong>not</strong> use advertising trackers, and there are no ads in Leti.</p>
+<h2>Sound on your logs</h2>
+<p>When you take a photo inside Leti to post a log, the app also records a <strong>short audio clip of that moment — up to 10 seconds</strong>, so friends can hear the practice, not just see it. You can also record a voice reply of the same length on a comment.</p>
+<ul>
+<li><strong>You are always asked first.</strong> iOS requires your permission before Leti can use the microphone, and you can refuse or withdraw it at any time in iOS Settings — everything else in the app keeps working, your logs are simply silent.</li>
+<li><strong>You can always see when it is recording.</strong> A live indicator showing the sound as it is captured appears on screen the entire time the microphone is on.</li>
+<li><strong>You decide whether it is posted.</strong> Before a log goes out, you can play the clip back and remove it with one tap. Nothing is uploaded until you post.</li>
+<li><strong>It is treated like your other content:</strong> stored with your post, visible to whoever your post is visible to, deleted when you delete the post or your account, and never used to identify you, never analyzed, and never sold or shared for advertising.</li>
+</ul>
 <h2>Location and places</h2>
 <p>We use your device location only while you're picking a place for a post or a schedule event. When you open the location picker and have given the app location permission, your device coordinates are sent to <strong>Leti's own server</strong>, which asks OpenStreetMap's <strong>Nominatim</strong> service for nearby place suggestions and the name of where you are (reverse-geocoding). Place search and map preview images are powered by <strong>Apple Maps</strong> (Apple's MapKit service on your device): your search text and approximate location are sent to Apple to return suggestions and map images, and Apple handles them under <a href="https://www.apple.com/legal/privacy/">Apple's privacy policy</a>. If Apple Maps can't complete a lookup, we fall back to sending the search through Leti's own server to Nominatim as well. On every path, your device coordinates are processed transiently and are <strong>never stored by Leti</strong> — we save only the place you pick: its name and that venue's public map coordinates, whether it's attached to a post or a schedule event.</p>
 <p>Tagged places get a simple "spot" page — but tapping a place shows logs there <strong>only from you and people you follow</strong>, never from strangers.</p>
@@ -75,7 +83,7 @@ footer { margin-top:48px; font-size:13px; color:var(--muted); }
 <p>These providers process data on our behalf to deliver the service. We use no third-party analytics or tracking services.</p>
 <h2>Data storage, security, and retention</h2>
 <p>Your data is stored with our provider (Supabase). Access to your account data and posts is enforced server-side with row-level security. One honest caveat: photos and videos are served from hard-to-guess links, and anyone who has one of those links can view that media file — your visibility settings protect your posts inside the app, not a media link someone copies out of it.</p>
-<p>We keep your information for as long as your account is active. When you delete a post, it is removed from the app immediately; the underlying photo and video files may remain in storage until your account is deleted — email us at <strong>benwodonnell@gmail.com</strong> and we'll remove them sooner. When you delete your account, your data — including your photos and videos — is removed, and residual copies in backups are purged within about 30 days. Your push token is deleted when you sign out or delete your account; turning notifications off for Leti in iOS Settings stops any notifications from being delivered to your device. Detailed usage records are deleted after 90 days (see above). If a data breach affects your personal information, we will notify you and the relevant authorities as required by law.</p>
+<p>We keep your information for as long as your account is active. When you delete a post, it is removed from the app immediately, and its photo, video, and audio files are deleted from storage along with it. When you delete your account, your data — including your photos and videos — is removed, and residual copies in backups are purged within about 30 days. Your push token is deleted when you sign out or delete your account; turning notifications off for Leti in iOS Settings stops any notifications from being delivered to your device. Detailed usage records are deleted after 90 days (see above). If a data breach affects your personal information, we will notify you and the relevant authorities as required by law.</p>
 <h2>Your choices and rights</h2>
 <ul>
 <li><strong>Delete your account anytime, right in the app:</strong> Settings → Delete account. This permanently removes your account, posts, photos and videos, messages, and personal data. You can also request deletion by emailing <strong>benwodonnell@gmail.com</strong>.</li>
@@ -88,7 +96,7 @@ footer { margin-top:48px; font-size:13px; color:var(--muted); }
 <h2>Users outside the United States</h2>
 <p>Leti is operated from the United States and your data is processed and stored in the US. If you use Leti from elsewhere, you consent to your data being processed in the US. The same access and deletion rights above apply to everyone, via the same channels.</p>
 <h2>Children</h2>
-<p>Leti is not intended for children under 13, and we do not knowingly collect information from them. We ask for your birthday at sign-up to confirm you're 13 or older; the birthday is checked on your device and is not stored. If we learn we've collected personal information from a child under 13, we will delete it promptly. Parents or guardians can contact us at <strong>benwodonnell@gmail.com</strong>.</p>
+<p>Leti is not intended for children under 13, and we do not knowingly collect information from them. We ask your age at sign-up to confirm you're 13 or older; it is checked on your device and is never stored or sent to us. If we learn we've collected personal information from a child under 13, we will delete it promptly. Parents or guardians can contact us at <strong>benwodonnell@gmail.com</strong>.</p>
 <h2>Changes to this policy</h2>
 <p>We may update this policy as the app evolves. We'll change the "Last updated" date above and, for significant changes, provide notice in the app.</p>
 <h2>Contact</h2>
